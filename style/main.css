@@ -4,3 +4,18 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* ! header style start */
+.text-logo {
+  font-weight: 700;
+  color: #3f87f5;
+}
+.menu-item {
+  color: #3e3e3e;
+  transition: all 1s;
+  font-weight: 600;
+}
+.menu-item:hover,
+.menu-item:active {
+  color: #3f87f5;
+}
+/* ! header style end */
