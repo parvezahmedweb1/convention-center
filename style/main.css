@@ -5,6 +5,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+li {
+  list-style: none;
+}
 body {
   font-family: "Poppins", sans-serif;
 }
@@ -32,13 +35,38 @@ body {
 
 /* ! home style end */
 /* ! event style start */
-.event-section {
-  position: relative;
-}
-.event-section::after {
-  content: "";
-  position: absolute;
-  top: 60%;
-  right: 0;
-}
+
 /* ! event style end */
+/* ! our package style start */
+.special-card {
+  position: relative;
+  transform: translateY(-30px);
+  transition: 0.5s;
+}
+.special-card::before {
+  content: "Hot";
+  position: absolute;
+  top: -15px;
+  right: 20px;
+  background-color: #ff4e4e;
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-weight: 600;
+}
+.special-card-hover:hover {
+  transform: translateY(-0px);
+}
+.card-hover {
+  transform: translateY(-0px);
+  transition: 1s;
+}
+.card-hover:hover {
+  transform: translateY(-30px);
+}
+.check-list {
+  color: #5243c2;
+}
+.plan-btn {
+  background-color: #fef5fa;
+}
+/* ! our package style end */
