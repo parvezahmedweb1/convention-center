@@ -8,7 +8,12 @@
 body {
   font-family: "Poppins", sans-serif;
 }
-
+.mt {
+  margin-top: 100px;
+}
+.mb {
+  margin-bottom: 100px;
+}
 /* ! header style start */
 .text-logo {
   font-weight: 700;
@@ -26,3 +31,14 @@ body {
 /* ! home style start */
 
 /* ! home style end */
+/* ! event style start */
+.event-section {
+  position: relative;
+}
+.event-section::after {
+  content: "";
+  position: absolute;
+  top: 60%;
+  right: 0;
+}
+/* ! event style end */
