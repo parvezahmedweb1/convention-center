@@ -70,3 +70,18 @@ body {
   background-color: #fef5fa;
 }
 /* ! our package style end */
+/* ! testimonial style start */
+.testimonial-card {
+  position: relative;
+}
+.testimonial-card::before {
+  content: "";
+  position: absolute;
+  bottom: -30px;
+  left: 70%;
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  clip-path: polygon(0 1%, 50% 100%, 100% 0);
+}
+/* ! testimonial style end */
