@@ -1,9 +1,14 @@
 /* ! deafult style here */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  font-family: "Poppins", sans-serif;
+}
+
 /* ! header style start */
 .text-logo {
   font-weight: 700;
@@ -12,10 +17,12 @@
 .menu-item {
   color: #3e3e3e;
   transition: all 1s;
-  font-weight: 600;
 }
 .menu-item:hover,
 .menu-item:active {
   color: #3f87f5;
 }
 /* ! header style end */
+/* ! home style start */
+
+/* ! home style end */
